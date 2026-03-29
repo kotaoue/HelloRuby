@@ -1,8 +1,8 @@
 # Hello World
 
-Pure Ruby の Hello World です。
+This is a Hello World program written in pure Ruby.
 
-## 実行方法
+## How to Run
 
 ```bash
 ruby hello.rb
