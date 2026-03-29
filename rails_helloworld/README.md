@@ -13,34 +13,25 @@
 | Rails | 8.1.3 |
 | データベース | SQLite3 |
 
+> Ruby のインストール方法はリポジトリルートの [README.md](../README.md) を参照してください。
+
 ---
 
 ## セットアップ
 
-### 1. Ruby のインストール
-
-Ruby 3.2.3 が必要です。[rbenv](https://github.com/rbenv/rbenv) や [RVM](https://rvm.io/) でインストールできます。
+リポジトリのルートディレクトリからアプリのディレクトリへ移動します。
 
 ```bash
-# rbenv を使う場合
-rbenv install 3.2.3
-rbenv local 3.2.3
+cd rails_helloworld
 ```
 
-### 2. このリポジトリをクローン
-
-```bash
-git clone https://github.com/kotaoue/HelloRuby.git
-cd HelloRuby/rails_helloworld
-```
-
-### 3. 依存 gem のインストール
+### 1. 依存 gem のインストール
 
 ```bash
 bundle install
 ```
 
-### 4. データベースのセットアップ
+### 2. データベースのセットアップ
 
 ```bash
 bin/rails db:prepare
